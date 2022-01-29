@@ -2,17 +2,53 @@ body{
     background-image: linear-gradient(rgba(93, 63, 211, 0.7), rgba(93, 63, 200, 0.7)), url("https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") ;
     margin: 0px;
     padding: 0px;
-    text-align: center;
     color: white;
 }
-#page-header{
-    position: relative;
-    top: 40px;
+header{
+    text-align: center;
     font-family: sans-serif;
 }
-#title{
-    font-size: 38px;
+#survey-contents{
+    background-color: black;
+    opacity: 0.7;
+    margin: auto;
+    width: 40%;
+    padding: 50px;
+    font-family:Arial, Helvetica, sans-serif;
 }
-#description{
-    font-size: 23px;
+/* this section is alreday styled. Just need to work on user-info font-size and family*/
+#user-info{
+}
+#name, #email, #age{
+    margin-top: -15px;
+}
+#current-role, #your-role{
+    margin-top: 10px;
+}
+
+
+/*This section not yet styled. Need a way to size radio buttons */
+#recomend-div{
+    background-color: blue;
+}
+
+/*this section is styled. Just need to play with the font size and family*/
+#fav-features, #favourite{
+    margin-top: 10px;
+}
+/*not yet styled. Need a way to styled radio buttons */
+#checkbox-div{
+    background-color: indigo;
+}
+#comment-div{
+    margin-top: -15px;
+}
+#submitButton{
+    background-color: green;
+    cursor: pointer;
+    color: white;
+}
+input, select{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
 }
